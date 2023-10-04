@@ -1,7 +1,7 @@
 <?php
-function get_angry_dog($x) {
+function get_angry_dog($nbr) {
 $a="";
-for (; $x>0; $x=$x-1){
+for (; $nbr>0; $nbr=$nbr-1){
 $a=$a."woof";
 };
 return($a);
