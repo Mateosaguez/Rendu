@@ -1,6 +1,6 @@
 <?php
-function my_concat($b,$c)
+function my_concat($str1,$str2)
 {
-$a=$b. " " .$c;
+$a=$str1. " " .$str2;
 echo($a);
 }
